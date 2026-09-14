@@ -1,36 +1,23 @@
 {
-  "expo": {
-    "name": "QueueLess",
-    "slug": "queueless",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "dark",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#0F172A"
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "package": "com.queueless.app",
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#0F172A"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "8adac744-8e5f-4924-8f19-fd23fa97dce3"
-      }
+    "expo": {
+        "name": "QueueLess",
+        "slug": "queueless",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "userInterfaceStyle": "dark",
+        "assetBundlePatterns": ["**/*"],
+        "ios": {
+            "supportsTablet": true
+        },
+        "android": {
+            "package": "com.queueless.app"
+        },
+        "web": {},
+        "extra": {
+            "eas": {
+                "projectId": "8adac744-8e5f-4924-8f19-fd23fa97dce3"
+            }
+        },
+        "plugins": ["expo-font"]
     }
-  }
 }
