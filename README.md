@@ -105,7 +105,7 @@ Create a Render PostgreSQL database first, then create a Render Web Service with
 
 ```text
 Root Directory: backend
-Build Command: pip install -r requirements.txt
+Build Command: pip install -r requirements.txt && python manage.py collectstatic --no-input
 Start Command: gunicorn config.wsgi:application
 ```
 
